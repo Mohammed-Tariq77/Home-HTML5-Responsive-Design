@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4910394370.js" crossorigin="anonymous"></script>
+</head>
+<body >
+<!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active"><i class="fas fa-home 2x"></i> Home</a>
+        <a href="#news">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#about"><i class="fas fa-sign-in-alt 2x"></i> Sign-Up/Login</a>
+        <input type="search" name="nav-bar-search"  onfocus="changeSearchWidth()" placeholder="Search ..." id="search">
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    <!-- -------- The flexible (content)----- -->
+    <div class="row">
+    <!-- Main Content-->
+    <div class="main">
+        <section id="banner">
+            <div class="inner">
+                <h1>Industrious</h1>
+                <p>A responsive business oriented template with a video background<br />
+                designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+            </div>
+            <video autoplay loop muted playsinline src="images/banner.mp4"></video>
+        </section>
+        <section id="content">
+            <div style="width: 100%;color: black;"><h2 >SEM TURPIS AMET SEMPER</h2></div>
+            <div style="width: 100%;padding-top: 0;color: black;">
+                <p>In arcu accumsan arcu adipiscing accumsan orci ac. 
+                Felis id enim aliquet. Accumsan ac integer lobortis 
+                commodo ornare<br> aliquet accumsan erat 
+                tempus amet porttitor.
+                </p>
+            </div>
+            <div class="first-content"  onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="far fa-address-card 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+            <div class="first-content" onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="far fa-copy 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+            <div class="first-content" onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="fas fa-save 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+            <div class="first-content" onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="fas fa-sort-amount-up-alt 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+            <div class="first-content" onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="fas fa-location-arrow 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+            <div class="first-content" onmouseover="changeColorsOnOver()" onmouseout="originalColorsOnOut()">
+                <h1><i class="fas fa-qrcode 7x first-content-icon"></i></h1>
+                <p style="text-align: center;">FEUGIAT CONSEQUAT<br><br>
+                    Nunc lacinia ante nunc ac lobortis<br> ipsum. Interdum adipiscing gravida<br> odio porttitor sem non mi integer<br> non faucibus.</p>
+            </div>
+        </section>
+        
+        <section id="cta" class="wrapper">
+            <div class="inner">
+                <h2>Curabitur ullamcorper ultricies</h2>
+                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+            </div>
+        </section>
+        <section id="content-last">
+            <div style="width: 100%;color: black;"><h2 >SEM TURPIS AMET SEMPER</h2></div>
+            <div style="width: 100%;padding-top: 0;color: black;">
+                <p>In arcu accumsan arcu adipiscing accumsan orci ac. 
+                Felis id enim aliquet. Accumsan ac integer lobortis 
+                commodo ornare<br> aliquet accumsan erat 
+                tempus amet porttitor.
+                </p>
+            </div>
+            <div class="last-content" >
+                <h1></h1>
+                <p style="text-align: center;font-size: 30px;">
+                    Nunc lacinia ante nunc ac<br> 
+                    lobortis ipsum. Interdum<br> 
+                    adipiscing gravida odio<br> 
+                    porttitor sem non mi integer<br> 
+                    non faucibus.
+                </p>
+                <div class="last-content-icon-bar" id="last-content-bar">
+                    <a class="profile" href="#">
+                        <img src="images/me.jpg" alt="profile" width="70px" height="70px" style="border-radius: 60px;">
+                    </a>
+                    <span style="margin-left: 10%;font-size: 12px;"><h3 style="color: red;">- Mohammed Tariq </h3>- CEO ABC Inc.</span> 
+                </div>
+            </div>
+            <div class="last-content">
+                <h1></h1>
+                <p style="text-align: center;font-size: 30px;">
+                    Nunc lacinia ante nunc ac<br> 
+                    lobortis ipsum. Interdum<br> 
+                    adipiscing gravida odio<br> 
+                    porttitor sem non mi integer<br> 
+                    non faucibus.
+                </p>
+                <div class="last-content-icon-bar" id="last-content-bar">
+                    <a class="profile" href="#">
+                        <img src="images/tigo.jpg" alt="profile" width="70px" height="70px" style="border-radius: 60px;">
+                    </a>
+                    <span style="margin-left: 10%;font-size: 12px;"><h3 style="color: red;">- Mahmoud Gaber </h3>- CEO ABC Inc.</span> 
+                </div>
+            </div>
+            <div class="last-content">
+                <h1></h1>
+                <p style="text-align: center;font-size: 30px;">
+                    Nunc lacinia ante nunc ac<br> 
+                    lobortis ipsum. Interdum<br> 
+                    adipiscing gravida odio<br> 
+                    porttitor sem non mi integer<br> 
+                    non faucibus.
+                </p>
+                <div class="last-content-icon-bar" id="last-content-bar">
+                    <a class="profile" href="#">
+                        <img src="images/2.jpg" alt="profile" width="70px" height="70px" style="border-radius: 60px;">
+                    </a>
+                    <span style="margin-left: 10%;font-size: 12px;"><h3 style="color: red;">- Abbas Farnas </h3>- CEO ABC Inc.</span> 
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3 style="margin-left: 3%;">Accumsan montes viverra</h3>
+                    <p style="margin-left: 3%;">Nunc lacinia ante nunc ac lobortis.<br> 
+                        Interdum adipiscing gravida odio porttitor<br>
+                        sem non mi integer non faucibus ornare mi ut ante<br> 
+                        amet placerat aliquet. Volutpat eu sed ante lacinia<br> 
+                        sapien lorem accumsan varius montes viverra nibh<br> 
+                        in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+                </section>
+                <section>
+                    <h4>Sem turpis amet semper</h4>
+                    <ul class="alt">
+                        <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+                        <li><a href="#">Etiam vel lorem sed amet.</a></li>
+                        <li><a href="#">Felis enim feugiat viverra.</a></li>
+                        <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Magna sed ipsum</h4>
+                    <ul class="plain">
+                        <li><a href="https://twitter.com/via7amada"><i id="icon" class="fab fa-twitter 2x"></i> Twitter</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100001905994003"><i id="icon" class="fab fa-facebook-square 2x"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/7amada.tariq/"><i id="icon" class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i id="icon" class="fab fa-github"></i> Github</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; Tariq&Tigo <a href="https://www.facebook.com/mahmoud.tiger.733?fref=hovercard&hc_location=chat">Tiger</a>, Video <a href="https://www.facebook.com/profile.php?id=100001905994003">Tariq</a>.
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
